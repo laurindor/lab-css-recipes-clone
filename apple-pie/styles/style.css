@@ -14,15 +14,10 @@ body {
 
 /*por algun motivo no me pone la imagen de fondo*/
 
-header{
-  background-image: url(/mnt/c/users/imarcos/Desktop/PizzaBytes/m1-d04-class/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
-  background-position:0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 650px;
-  padding-top: 50px;
-  position:relative; 
+.headerpie {
+  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
 }
+
 
 h1{
   font-size: 9em;
@@ -31,7 +26,7 @@ h1{
 }
 
 
-.thesection class {
+.thesection {
   width:1200px;
   margin: o auto;
   padding: 75px 0;
